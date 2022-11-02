@@ -7,10 +7,11 @@ def cmd():
     end_date = input("Please enter end date in format YYYY-MM-DD: ")
     path = input("Please enter path to file /Users/YourFolder/YourFile.md: ")
     # try except for function
-    try:
+    creator(start_date, end_date, path)
+    '''try:
         creator(start_date, end_date, path)
     except:
-        print("Check your input")
+        print("Check your input")'''
 
 
 def weeks_for_year(year):
